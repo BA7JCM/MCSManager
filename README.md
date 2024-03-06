@@ -15,7 +15,7 @@
 [![Status](https://img.shields.io/badge/node-v14.17.6-blue.svg)](https://nodejs.org/en/download/)
 [![Status](https://img.shields.io/badge/License-Apache%202.0-red.svg)](https://github.com/MCSManager)
 
-[Official Website](http://mcsmanager.com/) | [Docs](https://docs.mcsmanager.com/#/zh-cn/)
+[Official Website](http://mcsmanager.com/) | [Docs](https://docs.mcsmanager.com/#/zh-cn/) | [Discord](https://discord.gg/BNpYMVX7Cd)
 
 [English](readme.md) | [简体中文](README_CN.md) 
 
@@ -23,7 +23,9 @@
 
 <br />
 
+🌍 Want to know the Beta Version? Or have any ideas?
 
+Join the [Discord](https://discord.gg/BNpYMVX7Cd) now!
 
 <br />
 
@@ -78,12 +80,12 @@ wget -qO- https://raw.githubusercontent.com/mcsmanager/Script/master/setup.sh | 
 # switch to the installation directory. Please create it in advance with 'mkdir /opt/' if not exist.
 cd /opt/
 # Download runtime environment (Node.js). Ignore this step if you have Node.js 14+ installed already.
-wget https://nodejs.org/dist/v14.17.6/node-v14.17.6-linux-x64.tar.gz
+wget https://nodejs.org/dist/v14.19.1/node-v14.19.1-linux-x64.tar.gz
 # Decompress archive
-tar -zxvf node-v14.17.6-linux-x64.tar.gz
+tar -zxvf node-v14.19.1-linux-x64.tar.gz
 # Add program to system PATH
-ln -s /opt/node-v14.17.6-linux-x64/bin/node /usr/bin/node
-ln -s /opt/node-v14.17.6-linux-x64/bin/npm /usr/bin/npm
+ln -s /opt/node-v14.19.1-linux-x64/bin/node /usr/bin/node
+ln -s /opt/node-v14.19.1-linux-x64/bin/npm /usr/bin/npm
 
 # Prepare installation directory
 mkdir /opt/mcsmanager/
